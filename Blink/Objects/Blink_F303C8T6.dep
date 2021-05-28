@@ -1,36 +1,0 @@
-Dependencies for Project 'Blink', Target 'F303C8T6': (DO NOT MODIFY !)
-CompilerVersion: 6140000::V6.14::ARMCLANG
-F (.\CMSIS\system_stm32f3xx.c)(0x5B1FAC22)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS -I ../Blink -I ./Code/inc-IC:/Keil_v5/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F3xx/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531" -DSTM32F303x8-o ./objects/system_stm32f3xx.o -MD)
-I (CMSIS\stm32f3xx.h)(0x60550E52)
-I (CMSIS\stm32f303x8.h)(0x5B1FAC22)
-I (CMSIS\core_cm4.h)(0x5B1FAC22)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED65234)
-I (CMSIS\core_cmInstr.h)(0x5B1FAC22)
-I (CMSIS\cmsis_armcc_V6.h)(0x5B1FAC22)
-I (CMSIS\core_cmFunc.h)(0x5B1FAC22)
-I (CMSIS\core_cmSimd.h)(0x5B1FAC22)
-I (CMSIS\system_stm32f3xx.h)(0x5B1FAC22)
-F (.\StartUp\startup_stm32f303x8.s)(0x5B1FAC22)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-3-IC:/Keil_v5/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F3xx/Include-IC:/Keil_v5/ARM/CMSIS/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 531" -Wa,armasm,--pd,"STM32F303x8 SETA 1"-o ./objects/startup_stm32f303x8.o)
-F (.\Code\src\hw_init.c)(0x60742022)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS -I ../Blink -I ./Code/inc-IC:/Keil_v5/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F3xx/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531" -DSTM32F303x8-o ./objects/hw_init.o -MD)
-I (Code\inc\hw_init.h)(0x60741FA4)
-I (CMSIS\stm32f3xx.h)(0x60550E52)
-I (CMSIS\stm32f303x8.h)(0x5B1FAC22)
-I (CMSIS\core_cm4.h)(0x5B1FAC22)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED65234)
-I (CMSIS\core_cmInstr.h)(0x5B1FAC22)
-I (CMSIS\cmsis_armcc_V6.h)(0x5B1FAC22)
-I (CMSIS\core_cmFunc.h)(0x5B1FAC22)
-I (CMSIS\core_cmSimd.h)(0x5B1FAC22)
-I (CMSIS\system_stm32f3xx.h)(0x5B1FAC22)
-F (.\Code\src\main.c)(0x60741FA9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS -I ../Blink -I ./Code/inc-IC:/Keil_v5/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F3xx/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531" -DSTM32F303x8-o ./objects/main.o -MD)
-I (Code\inc\main.h)(0x60705DE1)
-I (CMSIS\stm32f3xx.h)(0x60550E52)
-I (CMSIS\stm32f303x8.h)(0x5B1FAC22)
-I (CMSIS\core_cm4.h)(0x5B1FAC22)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED65234)
-I (CMSIS\core_cmInstr.h)(0x5B1FAC22)
-I (CMSIS\cmsis_armcc_V6.h)(0x5B1FAC22)
-I (CMSIS\core_cmFunc.h)(0x5B1FAC22)
-I (CMSIS\core_cmSimd.h)(0x5B1FAC22)
-I (CMSIS\system_stm32f3xx.h)(0x5B1FAC22)
-I (Code\inc\hw_init.h)(0x60741FA4)
